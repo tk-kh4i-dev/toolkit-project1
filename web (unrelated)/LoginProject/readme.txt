@@ -1,1 +1,1 @@
-This folder contains the structural codes of a barebone but functional webpage. You can view the page via Visual Studio Code using the "Live Server" extension.
+This folder contains the structural codes of a barebone but functional login webpage. You can view the page via Visual Studio Code using the "Live Server" extension.
