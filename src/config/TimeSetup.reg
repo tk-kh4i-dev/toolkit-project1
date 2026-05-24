@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time\Config]
+"AnnounceFlags"=dword:00000005
+"MaxPollInterval"=dword:00000007
+"MinPollInterval"=dword:00000006
+"PhaseCorrectRate"=dword:00000040
+"LocalClockDispersion"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time\Parameters]
+"Type"="NTP"
+"NtpServer"="://google.com,0x8"
