@@ -5,9 +5,9 @@ LICENSE: MIT License - See the LICENSE file in the root directory.
 """
 
 import cpuinfo
+import ctypes
 import platform
 import psutil
-import subprocess
 import sys
 import time
 import winreg
@@ -114,6 +114,10 @@ def display_specs():
     draw_footer()
 
 def main():
+    if platform.system() == "Windows":
+        kernel32 = ctypes.windll.kernel32
+        # Enable ENABLE_VIRTUAL_TERMINAL_PROCESSING (0x0004)
+        kernel32.SetConsoleMode(kernel32.GetStdHandle(-11), 7)
     try:
         # The infinite loop lives here, inside 'main'
         while True:
