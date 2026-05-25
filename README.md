@@ -10,7 +10,7 @@ A modular, lightweight diagnostic and maintenance toolkit for Windows, written i
 
 ## Usage
 1. Open PowerShell.
-2. Run `./toolbox.ps1`.
+2. Run `./toolbox.ps1` or `python main.py` (execute it with elevated privileges inside a terminal if you can just in case to avoid permission errors, but a standard user-privileged terminal window is fine for most cases).
 3. Use the menu to select your desired diagnostic or maintenance task.
 4. You can find more advanced/other versions of the scripts inside `/src`, this toolkit file only include the tools that I think you need.
 
@@ -22,6 +22,6 @@ A modular, lightweight diagnostic and maintenance toolkit for Windows, written i
 * This project is licensed under the MIT License - see the LICENSE file for details.
 
 # More:
-I have added a /web directory, just my .html, .css and .js I made out of boredom, you can run it to launch a web page via an extension in Visual Studio Code for fun or other reasons if you want to.
+I have added a /web directory, just my .html, .css and .js source files I made out of boredom, you can run it to launch a web page via an extension in Visual Studio Code for fun or other reasons if you want to.
 
 I don't have much experience in creating README files so I took reference from Gemini and tweak in my own words, forgive me!
