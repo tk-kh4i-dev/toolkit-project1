@@ -10,7 +10,7 @@ A modular, lightweight diagnostic and maintenance toolkit for Windows, written i
 
 ## Usage
 1. Open PowerShell.
-2. Run `./toolbox.ps1` or `python main.py` (execute it with elevated privileges inside a terminal if you can just in case to avoid permission errors, but a standard user-privileged terminal window is fine for most cases).
+2. Run `./toolbox.ps1` or `python main.py` (beta), (execute it with elevated privileges inside a terminal if you can just in case to avoid permission errors, but a standard user-privileged terminal window is fine for most cases).
 3. Use the menu to select your desired diagnostic or maintenance task.
 4. You can find more advanced/other versions of the scripts inside `/src`, this toolkit file only include the tools that I think you need.
 
